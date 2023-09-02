@@ -1,0 +1,75 @@
+{
+	"client": "Thunder Client",
+	"collectionName": "REST API",
+	"dateExported": "2023-09-02T14:16:26.254Z",
+	"version": "1.1",
+	"folders": [],
+	"requests": [
+		{
+			"_id": "4f8a3509-60c7-4e5c-91dc-bdc530314828",
+			"colId": "d5a6e25e-3031-40db-b11b-34ef840356ed",
+			"containerId": "",
+			"name": "Fetch all items",
+			"url": "http://localhost:3000/items/",
+			"method": "GET",
+			"sortNum": 30000,
+			"created": "2023-09-02T14:08:27.757Z",
+			"modified": "2023-09-02T14:08:44.631Z",
+			"headers": [],
+			"params": [],
+			"tests": []
+		},
+		{
+			"_id": "587e5e1d-55ad-47be-a4e5-10b261fc7533",
+			"colId": "d5a6e25e-3031-40db-b11b-34ef840356ed",
+			"containerId": "",
+			"name": "Create a new item",
+			"url": "http://localhost:3000/items/",
+			"method": "POST",
+			"sortNum": 50000,
+			"created": "2023-09-02T14:09:11.449Z",
+			"modified": "2023-09-02T14:10:00.911Z",
+			"headers": [],
+			"params": [],
+			"body": {
+				"type": "json",
+				"raw": "{\n  \"name\": \"Mobile\",\n  \"price\": 15000\n}",
+				"form": []
+			},
+			"tests": []
+		},
+		{
+			"_id": "89e8edef-da7a-4221-b995-b3195906f5f1",
+			"colId": "d5a6e25e-3031-40db-b11b-34ef840356ed",
+			"containerId": "",
+			"name": "Update an existing item",
+			"url": "http://localhost:3000/items/64f342380066e30623a48685",
+			"method": "PUT",
+			"sortNum": 60000,
+			"created": "2023-09-02T14:10:28.835Z",
+			"modified": "2023-09-02T14:11:17.081Z",
+			"headers": [],
+			"params": [],
+			"body": {
+				"type": "json",
+				"raw": "{\n  \"name\": \"Mobile\",\n  \"price\": 20000\n}",
+				"form": []
+			},
+			"tests": []
+		},
+		{
+			"_id": "3b8b4b9e-ceb1-48ae-9715-1c364b79fa48",
+			"colId": "d5a6e25e-3031-40db-b11b-34ef840356ed",
+			"containerId": "",
+			"name": "Delete an item",
+			"url": "http://localhost:3000/items/64f342380066e30623a48685",
+			"method": "DELETE",
+			"sortNum": 70000,
+			"created": "2023-09-02T14:11:40.214Z",
+			"modified": "2023-09-02T14:11:57.403Z",
+			"headers": [],
+			"params": [],
+			"tests": []
+		}
+	]
+}
